@@ -133,6 +133,22 @@ build_exe.bat        # one-command release build
 BUILD.md             # build & release documentation
 ```
 
+## 🙏 Acknowledgments
+
+V-YTDownload is a humble GUI shell — the real heavy lifting is done by these
+giants. Respect where respect is due, and consider giving them a ⭐:
+
+| Project | Makers | What they do for us |
+|---|---|---|
+| **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** | [pukkandan](https://github.com/pukkandan) and [contributors](https://github.com/yt-dlp/yt-dlp/graphs/contributors) | Download engine — extracts, resolves and fetches every video |
+| **[FFmpeg](https://ffmpeg.org)** ([mirror](https://github.com/FFmpeg/FFmpeg)) | The [FFmpeg team](https://ffmpeg.org/about.html) | Merging video+audio and converting everything to MP3 |
+| **[curl-impersonate / curl_cffi](https://github.com/yifeikong/curl_cffi)** | [yifeikong](https://github.com/yifeikong) and contributors | Real-Chrome TLS fingerprint so downloads survive bot walls |
+| **[Pillow](https://github.com/python-pillow/Pillow)** | [hugovk](https://github.com/hugovk) and contributors | Wallpaper art + banner rendering |
+| **[PyInstaller](https://pyinstaller.org/)** | [bwoodsend](https://github.com/bwoodsend) and contributors | Turns it all into a single double-clickable `.exe` |
+
+If V-YTDownload ever saved you time, the kindest payback is starring
+[yt-dlp](https://github.com/yt-dlp/yt-dlp) and [FFmpeg](https://github.com/FFmpeg/FFmpeg).
+
 ## 📄 License
 
 [MIT](LICENSE) — free for personal and commercial use.
