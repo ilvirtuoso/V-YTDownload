@@ -1,0 +1,8 @@
+# runtime
+yt-dlp>=2024.8.6
+imageio-ffmpeg>=0.5.1
+pillow>=10.0.0
+curl-cffi>=0.8.0
+# build / release tooling
+pyinstaller>=6.0
+pefile>=2023.2.7

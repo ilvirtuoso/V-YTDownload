@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.spec.bak
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# App runtime (per-machine, never commit)
+output/
+settings.json
+
+# OS / editors
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.log
