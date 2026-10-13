@@ -25,9 +25,9 @@
 |---|---|
 | ![Aero theme](screenshots/aero-en.png) | ![Win98 theme](screenshots/win98-tr.png) |
 
-| Themes & language | Options (folders, login, quality) |
-|---|---|
-| ![Themes dialog](screenshots/themes.png) | ![Options dialog](screenshots/options.png) |
+| Themes & language |
+|---|
+| ![Themes dialog](screenshots/themes.png) |
 
 ## ✨ Features
 
@@ -115,8 +115,6 @@ and the full verified-test checklist.
 
 ```bat
 python app.py          # run from source
-python smoke_test.py   # 20+ offline checks (themes, i18n, wiring)
-python loop_test.py    # localhost retry-matrix proof (no YouTube needed)
 ```
 
 </details>

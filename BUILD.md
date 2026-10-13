@@ -85,9 +85,9 @@ If the folder is not writable (e.g. Program Files), settings fall back to
       errors are impossible (`repr` fallback)
 - [x] User-reported video `youtu.be/aL-gLVeKlwM` resolves in frozen exe
       ("Dombra Pıçak Darbesi (0:30)", Waiting)
-- [x] Automatic retry matrix (chrome → direct → ipv4 → chunked) proven by
-      `loop_test.py` (12 checks: localhost success path, dead-end failure
-      path with all variants + log, retry line EN/TR)
+- [x] Automatic retry matrix (chrome → direct → ipv4 → chunked) proven by a
+      localhost rig (success path, dead-end failure path with all variants +
+      log, retry line EN/TR)
 - [x] TLS-block detector: all-attempts-TLS-failure maps to an actionable
       message; running DPI tools named via psutil scan (`loop`/smoke unit
       checks green; rehearsed with real user log lines)
